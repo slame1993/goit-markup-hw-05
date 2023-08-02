@@ -550,6 +550,10 @@ body {
 
 /* footer form */
 
+.footer-form-container {
+  margin-left: 80px;
+}
+
 .form-name {
   font-family: Roboto;
   font-size: 16px;
