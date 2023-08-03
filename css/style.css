@@ -8,6 +8,7 @@
   --btn-border: 1px solid #e7e9fc;
   --icon-color: #8e8f99;
   --checkbox-checked: #f4f4fd;
+  --checkbox-background: #404bbf;
 }
 
 * {
@@ -390,8 +391,10 @@ body {
   fill: transparent;
 }
 
-.checkbox-icon-item:checked {
+.modal-checkbox-item:checked + .checkbox-icon-item {
   fill: var(--checkbox-checked);
+  background-color: var(--checkbox-background);
+  border: none;
 }
 
 .privacy-policy {
