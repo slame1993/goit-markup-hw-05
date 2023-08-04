@@ -387,7 +387,7 @@ body {
   fill: transparent;
 }
 
-.modal-checkbox-item:checked + .checkbox-icon {
+.modal-checkbox-item:checked + .modal-checkbox-privacy span {
   fill: var(--checkbox-checked);
   background-color: var(--checkbox-background);
   border: none;
